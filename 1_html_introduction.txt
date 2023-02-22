@@ -1,0 +1,7 @@
+What is HTML?
+
+    - "Hyper Text Markup Language"
+    - Standard markup language for creating Web pages
+    - Describes the structure of a Web page
+    - Consists of a series of elements
+    - HTML elements tell the browser how to display the content
