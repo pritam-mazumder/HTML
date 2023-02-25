@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="0_temp.html" method="get">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username"> <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"> <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"> <br><br>
+
+        <input type="submit" value="sign in">
+    </form>
+</body>
+</html>
+
+<!-- 
+    action      The action attribute specifies where to send the form-data when a form is submitted.
+
+    method      The method attribute specifies how to send form-data
+                The form-data can be sent as: 
+                 - URL variables (with method="get")            ==> send data on URL
+                 - HTTP post transaction (with method="post")   ==> does not send data on URL
+ -->
