@@ -10,13 +10,13 @@
     <h1>HTML Form</h1>
     <form action="0_temp.html" method="get">
         <label for="username">Username: </label>
-        <input type="text" id="username" name="username"> <br><br>
+        <input type="text" id="username" name="username" placeholder="your username" required> <br><br>
 
         <label for="password">Password</label>
-        <input type="password" id="password" name="password"> <br><br>
+        <input type="password" id="password" name="password" placeholder="your password" required> <br><br>
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="email"> <br><br>
+        <input type="email" id="email" name="email" placeholder="email" required> <br><br>
 
         <input type="submit" value="sign in">
     </form>
@@ -26,8 +26,8 @@
 <!-- 
     action      The action attribute specifies where to send the form-data when a form is submitted.
 
-    method      The method attribute specifies how to send form-data
-                The form-data can be sent as: 
-                 - URL variables (with method="get")            ==> send data on URL
-                 - HTTP post transaction (with method="post")   ==> does not send data on URL
+    placeholder attribute specifies a short hint that describes the expected value of an input field
+
+    required    it specifies that an input field must be filled out before submitting the form
+                it is a boolean attribute.
  -->

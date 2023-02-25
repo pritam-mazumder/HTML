@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown List</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form  method="get">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" placeholder="your username" required> <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="your password" required> <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="email" required> <br>
+
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male"> 
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"> 
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other"> <br><br>
+
+        <label for="agegroup">Age range</label>
+        <select name="agegroup" id="agegroup" required>
+            <option value="0-5">0-5</option>
+            <option value="5-10">5-10</option>
+            <option value="10-15">10-15</option>
+            <option value="15-20">15-20</option>
+            <option value="20-25">20-25</option>
+        </select> <br><br>
+
+        <input type="submit" value="sign in">
+    </form>
+</body>
+</html>
+
+<!-- 
+    <select>    used to create a drop-down list.
+
+    name        it is used to reference the form data after the form is submitted 
+                (if you omit the name attribute, no data from the drop-down list will be submitted).
+
+    id          it is used to associate the drop-down list with a label.
+
+    <option>    inside the <select> element define the available options in the drop-down list.
+
+ -->
